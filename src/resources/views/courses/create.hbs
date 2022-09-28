@@ -1,0 +1,46 @@
+<div class='mt-4'>
+    <h3>Đăng khóa học</h3>
+    <form method="POST" action="/courses/store">
+        <div class='mb-3'>
+            <label for='name' class='form-label'>Name</label>
+            <input
+                type='text'
+                class='form-control'
+                name='name'
+                id='name'
+                placeholder='Name?'
+            />
+        </div>
+        <div class='mb-3'>
+            <label for='description' class='form-label'>Description</label>
+            <input
+                type='text'
+                class='form-control'
+                name='description'
+                id='description'
+                placeholder='Description?'
+            />
+        </div>
+        <div class='mb-3'>
+            <label for='videoId' class='form-label'>Video id</label>
+            <input
+                type='text'
+                class='form-control'
+                name='videoId'
+                id='videoId'
+                placeholder='Video id?'
+            />
+        </div>
+        <div class='mb-3'>
+            <label for='level' class='form-label'>Level</label>
+            <input
+                type='text'
+                class='form-control'
+                name='level'
+                id='level'
+                placeholder='Level?'
+            />
+        </div>
+        <button type='submit' class='btn btn-primary'>Thêm khóa học</button>
+    </form>
+</div>

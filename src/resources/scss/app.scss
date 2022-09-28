@@ -1,1 +1,29 @@
 @import 'variables';
+
+.card-course-item {
+    margin-top: 16px;
+    height: 380px;
+}
+
+.card-course-item .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-course-item .card-body a {
+    text-decoration: none;
+}
+
+.card-course-item .card-body .card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-course-item .card-body .card-text {
+    flex: 1;
+}
+
+.card-course-item .card-body .btn {
+    width: 160px;
+}
