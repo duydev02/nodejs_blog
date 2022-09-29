@@ -25,9 +25,15 @@
                 <td>{{this.level}}</td>
                 <td>{{this.deletedAt}}</td>
                 <td>
-                    <a href="" class="btn btn-link btn-restore" data-id="{{this._id}}">Khôi phục</a>
-                    <a href="" class="btn btn-link" data-bs-toggle="modal" data-bs-id="{{this._id}}"
-                        data-bs-target="#delete-course-modal" style="color: red;">Xóa vĩnh viễn</a>
+                    <a href="" class="btn btn-primary btn-restore" data-id="{{this._id}}">
+                        <i class="fa-solid fa-rotate-left me-1"></i>
+                        Khôi phục
+                    </a>
+                    <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-id="{{this._id}}"
+                        data-bs-target="#delete-course-modal">
+                        <i class="fa-solid fa-trash me-1"></i>
+                        Xóa vĩnh viễn
+                    </a>
                 </td>
             </tr>
             {{else}}
